@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+}
+
+
+.logoContenedor {
+    height: 2.2em;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.texto {
+    width: 900px;
+    height: 750px;
+}
+
+.form {
+    height: 100%;
+    border: none;
+}
+
+.textoPrincipal {
+    border: none;
+    width: 100%;
+    height: 80%;
+    background: #F3F5FC;
+    color: #0A3871;
+    resize: none;
+    font-size: 2rem;
+}
+
+.condicionales {
+    display: flex;
+    /* padding-left: 110px; */
+    justify-content: flex-start;
+    font-size: .7rem;
+    gap: 5px;
+    padding: 10px 110px;
+}
+
+/* Botones */
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 30px;
+}
+
+.encriptar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.desencriptar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+
+
+.msg-box {
+    display: flex;
+    align-items: center;
+    width: 410px;
+    height: 800px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.persona {
+    text-align: center;
+    padding: 30px;
+}
+
+.persona h2 {
+    font-weight: 700;
+}
+
+.btn-imagen {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0A3871;
+    font-size: 1.5rem;
+}
+
+.secondTextarea {
+    border: none;
+    width: 80%;
+    height: 500px;
+    resize: none;
+    display: none;
+}
+
+.btn-copiar {
+    width: 336px;
+    height: 67px;
+    font-weight: 400;
+    background-color: #FFFFFF;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
