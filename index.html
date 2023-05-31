@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
     <link rel="stylesheet" href="/styles.css">
-    <script src="./js/script.js"></script>
+    
 </head>
 
 <body>
@@ -18,15 +18,15 @@
     <div class="container">
         <div class="texto">
             <form class="form" id="formulario">
-                <textarea placeholder="Ingrese el texto aquí" class="textoPrincipal" ></textarea>
+                <textarea placeholder="Ingrese el texto aquí" class="textoPrincipal" id="textArea" ></textarea>
             </form>
             <div class="condicionales">
                 <img src="./img/Group.svg" alt="importante" id="imgInfo">
-                <label class="info" for="input-texto">Solo letras minúsculas, sin acentos</label>
+                <p class="info" for="input-texto">Solo letras minúsculas, sin acentos</p>
             </div>
             <div class="buttonContainer">
-                <button class="encriptar">Encriptar</button>
-                <button class="desencriptar">Desencriptar</button>
+                <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
         <div class="msg-box">
@@ -42,6 +42,8 @@
 
         </div>
     </div>
+
+    <script src="/script.js"></script>
 </body>
 
 </html>

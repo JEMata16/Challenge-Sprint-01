@@ -132,6 +132,7 @@ body {
     height: 500px;
     resize: none;
     display: none;
+    font-size: 2rem;
 }
 
 .btn-copiar {
